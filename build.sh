@@ -21,4 +21,6 @@ rpm-ostree install screen ncdu qemu-guest-agent
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+systemctl start qemu-guest-agent.service
 systemctl enable qemu-guest-agent.service
+
